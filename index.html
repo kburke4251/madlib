@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>My MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions">
+      Enter a value into each field. Then click 'Make Story' to read a funny story.
+    </p>
+
+    <form>
+      Enter an adjective:
+        <input id="adj1" type="text"> <br>
+      Enter a noun:<br>
+        <input id="noun1" type="text"><br>
+      Enter a plural noun:<br>
+        <input id="pnoun1" type="text"><br>
+      Enter a female name:<br>
+        <input id="femalename" type="text"><br>
+      Enter an adjective:<br>
+        <input id="adj2" type="text"><br>
+      Enter an article of clothing:<br>
+        <input id="clothing" type="text"><br>
+      Enter a noun:<br>
+        <input id="noun2" type="text"><br>
+      Enter a city:<br>
+        <input id="city" type="text"><br>
+      Enter a plural noun:<br>
+        <input id="pnoun2" type="text"><br>
+      Enter an adjective:<br>
+        <input id="adj3" type="text"><br>
+      Enter a body part:<br>
+        <input id="bodypart" type="text"><br>
+      Enter a letter:<br>
+        <input id="letter" type="text"><br>
+      Enter a celebrity:<br>
+        <input id="celebrity" type="text"><br>
+      Enter a plural noun:<br>
+        <input id="pnoun3" type="text"><br>
+      Enter an adjective:<br>
+        <input id="adj4" type="text"><br>
+      Enter a place:<br>
+        <input id="place" type="text"><br>
+      Enter a body part:<br>
+        <input id="bodypart2" type="text"><br>
+      Enter an adjective:<br>
+        <input id="adj5" type="text"><br>
+      Enter an adjective:<br>
+        <input id="adj6" type="text"><br>
+      Enter a verb:<br>
+        <input id="verb" type="text"><br>
+      Enter a plural noun:<br>
+        <input id="pnoun4" type="text"><br>
+      Enter a number:<br>
+        <input id="number" type="text"><br><br>
+      <input type="button" onclick="makeStory()" value="Make Story!">
+
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title">Book</h2>
+
+    <p id="one"></p>
+    <p id="two"></p>
+</div>
+
+<script src="story_maker.js"></script>
+
+
+</body>
+</html>
